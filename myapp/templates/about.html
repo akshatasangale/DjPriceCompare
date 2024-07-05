@@ -1,0 +1,52 @@
+{% extends 'base.html' %} {% load static %} {% block body %}
+
+
+<main id="main">
+
+    <!-- ======= Intro Single ======= -->
+    <section class="intro-single">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-8">
+                    <div class="title-single-box">
+                        <h1 class="title-single">We Do Great Design For Price Comparison</h1>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-4">
+                    <nav aria-label="breadcrumb" class="breadcrumb-box d-flex justify-content-lg-end">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item">
+                                <a href="#">Home</a>
+                            </li>
+                            <li class="breadcrumb-item active" aria-current="page">
+                                About
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Intro Single-->
+
+    <!-- ======= About Section ======= -->
+    <section class="section-about">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 position-relative">
+                    <div class="about-img-box">
+                        <img src="{% static 'assets/img/slide-about-1.jpg' %}" alt="" class="img-fluid">
+                    </div>
+                    <div class="sinse-box">
+                        <h3 class="sinse-title">PriceComparison
+                            <span></span>
+                            <br>
+                        </h3>
+                        <p>Art & Creative</p>
+                    </div>
+                </div>
+
+    </section>
+</main>
+<!-- End #main -->
+{% include 'footer.html' %} {% endblock %}
